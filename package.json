@@ -1,0 +1,27 @@
+{
+  "name": "gulp-casperjs",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "phantomjs": "~1.9.1",
+    "rimraf": "~2.1.4",
+    "adm-zip": "~0.4.3",
+    "request": "~2.36.0",
+    "through2": "0.4.1",
+    "phantomcss": "0.7.0"
+  },
+  "devDependencies": {
+    "gulp-util": "~2.0.0"
+  },
+  "keywords": [
+    "gulpplugin",
+    "phantomcss"
+  ],
+  "scripts": {
+    "install": "node install"
+  },
+  "engines": {
+    "node": ">=0.8"
+  }
+}
