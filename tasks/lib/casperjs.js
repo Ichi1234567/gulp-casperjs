@@ -1,13 +1,12 @@
 var path = require('path')
 var spawn = require('child_process').spawn;
 
-
 exports.init = function(gutil) {
   var exports = {};
 
   exports.casperjs = function(filepath, options, callback) {
 
-    var command = path.join(__dirname, '..', '..', 'lib/casperjs/casperjs-1.1-beta3/bin/casperjs'),
+    var command = path.join(__dirname, '..', '..', 'casperjs'),
         args = ['test'],
         phantomBinPath = require('phantomjs').path;
 
